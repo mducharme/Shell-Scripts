@@ -31,8 +31,8 @@ BACKUP_PATH="/backup/SVN";
 # FTP Information
 FTP_SERVER="ftp://locomotive.no-ip.biz";
 FTP_PATH="Backups/SVN/";
-FTP_USER="backup";
-FTP_PASSWORD="Backup-2013";
+FTP_USER="FTP_USER";
+FTP_PASSWORD="FTP_PASSWORD";
 
 for SVN_REPO in `ls -1 $SVN_PATH`;
 do
